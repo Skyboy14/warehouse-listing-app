@@ -2,7 +2,6 @@ import { FilterContainer, FilterInput, FilterLabel } from "./styleSheet";
 
 export function FilterComponent({ filter, setFilter }) {
 
-
     return (
         < FilterContainer >
             <div>

@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Warehouse Listing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Warehouse Listing App is a React-based web application for managing and listing warehouses. It provides features to view a list of warehouses, search by warehouse name, filter by city, cluster, and available space, view warehouse details, and edit warehouse information. The application uses React, React Router, Redux for state management, and styled-components for styling.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- View a list of warehouses with key information.
+- Search warehouses by warehouse name.
+- Filter warehouses based on city, cluster, and available space.
+- View detailed information for each warehouse.
+- Edit warehouse details such as cluster, warehouse name, city, space available, and warehouse live status.
+- Proper routing using React Router for navigation.
+- State management using Redux.
+- Responsive and styled user interface with CSS and styled-components.
+- Efficient data handling and optimized store calls.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the Warehouse Listing App locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+    git clone https://github.com/yourusername/warehouse-listing-app.git
 
-### `npm test`
+2. Navigate to the project directory:
+    cd warehouse-listing-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies:
+    npm install
 
-### `npm run build`
+4. Start the development server:
+    npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Use application:
+    Open your browser and visit http://localhost:3000 to access the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Browse the list of warehouses.
+- Use the search bar to search for a specific warehouse by name.
+- Apply filters to narrow down the list based on city, cluster, and available space.
+- Click on a warehouse to view its details and edit information if needed.
 
-### `npm run eject`
+## ScreenShot
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Alt text](image.png)
+![Alt text](image-1.png)
